@@ -77,7 +77,6 @@ export default class ComponentDemo extends BaseComponent {
       number: ['weight'],
       alias: { help: 'h', 'version-id': 'id' }
     });
-    console.dir(parsedArgs);
 
     const parsedData = parsedArgs?.data || {};
     const rawData = parsedData._ || [];
